@@ -175,3 +175,12 @@ flex: 1 0 100%;
   background: url('../img/womens-category.jpg');
   flex-basis: 100%;
 }
+
+
+/* section news letter */
+
+.newsletter {
+  text-align: center;
+  padding: 4rem 0;
+  line-height: 1.7;
+}
