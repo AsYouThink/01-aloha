@@ -120,3 +120,58 @@ flex: 1 0 100%;
   font-weight: 600;
 }
 
+/* section products */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  
+}
+
+.products div {
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
+.products span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  height: 100%;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.mens {
+  background: url('../img/mens-category.jpg');
+  flex-basis: 100%;
+  
+}
+
+.trends {
+  background: url('../img/trends-category.jpg');
+  flex-basis: 50%;
+
+}
+
+.glasses {
+  background: url('../img/glasses-category.jpg');
+  flex-basis: 50%;
+}
+
+.sale {
+  background: url('../img/sale-category.jpg');
+  flex-basis: 50%;  
+}
+
+.bags {
+  background: url('../img/bags-category.jpg');
+  flex-basis: 50%;
+}
+
+.womens {
+  background: url('../img/womens-category.jpg');
+  flex-basis: 100%;
+}
