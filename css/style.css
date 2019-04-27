@@ -184,3 +184,10 @@ flex: 1 0 100%;
   padding: 4rem 0;
   line-height: 1.7;
 }
+
+.newsletter {
+  background: url(../img/wave-bkgd.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
