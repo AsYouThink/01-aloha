@@ -8,6 +8,7 @@
   <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="./fonts/fonts.css">
   <link rel="stylesheet" type="text/css" href="./css/flickity.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <title>Aloha</title>
 </head>
@@ -44,103 +45,99 @@
   <!-- section about -->
 
   <section class="about">
-    <div class="container">
+    <div class="">
       <h2 class="italic">Hand-Crafted <span class="bold">Style</span></h2>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus tempora dolore, quibusdam repudiandae
-        debitis, hic porro error excepturi earum velit natus beatae illum culpa deleniti mollitia. Ab culpa ad modi?</p>
+      <p>Aloha Apparel Co. sells only finest ready-to-travel clothing. Browse our current selection of products or
+        sign-up for updates below.</p>
     </div>
   </section>
 
   <!-- section products -->
-  <section class="products grid-container">
-    <div class="mens">
-      <span>men`s</span>
-    </div>
-    <div class="trends">
-      <span>trends</span>
-    </div>
-    <div class="glasses">
-      <span>glasses</span>
-    </div>
-    <div class="sale">
-      <span>sale</span>
-    </div>
-    <div class="bags">
-      <span>bags</span>
-    </div>
-    <div class="womens">
-      <span>woman`s</span>
+  <section class="all-products grid-container">
+    <div class="product-categories">
+      <div class="wide mens">
+        <span>men`s</span>
+      </div>
+      <div class="square trends">
+        <span>trends</span>
+      </div>
+      <div class="square glasses">
+        <span>glasses</span>
+      </div>
+      <div class="square sale">
+        <span>sale</span>
+      </div>
+      <div class="square bags">
+        <span>bags</span>
+      </div>
+      <div class="wide womens">
+        <span>woman`s</span>
+      </div>
     </div>
   </section>
 
   <!-- section slideshow -->
   <section class="slideshow">
-    <div class="">
-      <h2>Most-Loved <span>Products</span></h2>
+    <div class="most-loved">
+      <h2 class="italic">Most-Loved <span class="bold">Products</span></h2>
     </div>
 
-    <div class="main-carousel" data-flickity='{ "cellAlign": "right", "contain": true }'>
+    <div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "wrapAround": true}'>
 
       <div class="caruousel-cell">
         <img src="img/stretch-knit-dress.jpg" alt="">
-
-
-
+        <p class="product-name">Dresses</p>
+        <h3>Stretch Knit Dress</h3>
+        <p class="price">$169.00</p>
       </div>
 
       <div class="main-carousel">
         <img src="img/cotton-blue-shirt.jpg" alt="">
-
-
-
+        <p class="product-name">Shirts</p>
+        <h3>Cotton Blue Shirt</h3>
+        <p class="price">$89.00</p>
       </div>
 
       <div class="main-carousel">
         <img src="img/checked-stretch-dress.jpg" alt="">
-
-
-
+        <p class="product-name">Dresses</p>
+        <h3>Checked Stretch Dress</h3>
+        <p class="price">$129.00</p>
       </div>
 
       <div class="main-carousel">
         <img src="img/blue-hipster-backpack.jpg" alt="">
-
-
-
+        <p class="product-name">Bags</p>
+        <h3>Blue Hipster Backpack</h3>
+        <p class="price">$69.00</p>
       </div>
 
       <div class="main-carousel">
         <img src="img/demin-overall-shorts.jpg" alt="">
-
-
-
+        <p class="product-name">Denim</p>
+        <h3>Denim Overall Shorts</h3>
+        <p class="price">$89.00</p>
       </div>
+
       <div class="main-carousel">
         <img src="img/pink-dotted-dress.jpg" alt="">
-
-
-
+        <p class="product-name">Dresses</p>
+        <h3>Pink Dotted Dress</h3>
+        <p class="price">$99.00</p>
       </div>
 
       <div class="main-carousel">
         <img src="img/blue-silk-dress.jpg" alt="">
-
-
-
+        <p class="product-name">Dresses</p>
+        <h3>Blue Silk Dress</h3>
+        <p class="price">$119.00</p>
       </div>
 
       <div class="main-carousel">
         <img src="img/cotton-yellow-tshirt.jpg" alt="">
-
-
-
-      </div>
-
-      <div class="main-carousel">
-        <img src="" alt="">
-
-
-
+        <p class="product-name">Shirts</p>
+        <h3>Cotton Yellow Tshirts</h3>
+        <p class="price">$39.00</p>
       </div>
 
     </div>
@@ -149,13 +146,13 @@
 
   <!-- section newsletter -->
   <section class="newsletter">
-    <div class="container">
+    <div class="">
       <h2 class="italic">Sign-up for <span class="bold">Updates</span></h2>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus tempora dolore, quibusdam repudiandae
         debitis, hic porro error excepturi earum velit natus beatae illum culpa deleniti mollitia. Ab culpa ad modi?</p>
       <form action="index.html" method="post" id="subscribe" class="">
-        <input type="email" id="mail" placeholder="Your Email">
-        <button class="" type="submit">subscribe</button>
+        <input type="email" class="mail" placeholder="Your Email">
+        <input class="submit" type="submit" value="Subscribe">
       </form>
 
     </div>
@@ -163,13 +160,28 @@
 
   <!-- section footer -->
   <footer class="footer">
-    <div class="">
-      <p>2019 Aloha Apparel Co.</p>
-      <p>Powered by HTML and CSS</p>
-
+    <div>
+      <div class="copyright">
+        <p>© 2019 Aloha Apparel Co.</p>
+        <p>Powered by HTML and CSS</p><br>
+      </div>
+      <div class="contact-info">
+        <p>604-604-6040. <a href="mailto:info@alohaapparel.com">info@alohaapparel.com</a></p>
+        <br>
+      </div>
+      <div class="address">
+        <p>1490 W Broadway</p>
+        <p>Vancouver, BC, Canada</p>
+      </div>
+      <ul>
+        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+      </ul>
     </div>
   </footer>
-<script src="JS/main.js"></script>
+  <script src="JS/main.js"></script>
   <script src="JS/flickity.js"></script>
 </body>
 
