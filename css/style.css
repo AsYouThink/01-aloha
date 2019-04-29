@@ -298,10 +298,34 @@ flex: 1 0 100%;
 .footer {
   padding: 5rem;
   background-color: #242424;
-  ;
-  /* height: 300px; */
   color: #fff;
+  line-height: 1.3rem; 
   text-align: center;
   display: flex;
   justify-content: center;
 }
+
+.email {
+  text-decoration: none;
+  /* color: #fff; */
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.address {
+  color: #969696;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  color: #fff;
+}
+.fab {
+  padding: 10px;
+  color: white;
+}
+
