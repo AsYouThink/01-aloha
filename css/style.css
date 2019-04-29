@@ -278,7 +278,7 @@ flex: 1 0 100%;
 }
 
 .submit {
-  position: relative;
+  position: absolute;
   font-size: 1rem;
   bottom: 45px;
   /* left: 147px; */
@@ -286,12 +286,13 @@ flex: 1 0 100%;
   color: #fff;
   border-radius: 25px;
   background: #e2574c;
+  
   /* left: 120%; */
   
 }
 
 .subscribe-button {
-  position: absolute;
+  position: relative;
   
 }
 /* section footer */
@@ -305,10 +306,6 @@ flex: 1 0 100%;
   justify-content: center;
 }
 
-.email {
-  text-decoration: none;
-  /* color: #fff; */
-}
 
 .contact-info a {
   text-decoration: none;
@@ -323,6 +320,7 @@ flex: 1 0 100%;
   justify-content: center;
   margin-top: 2rem;
   color: #fff;
+
 }
 .fab {
   padding: 10px;
