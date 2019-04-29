@@ -9,6 +9,10 @@ body {
 
 }
 
+html {
+  box-sizing: border-box;
+}
+
 /* makes all images responsive */
 
 /* containers */
@@ -80,11 +84,11 @@ flex: 1 0 100%;
 /* banner */
 
 .bg-flower {
-  background: url('../img/banner-girl.png'), url('../img/flower-bkgd.jpg');
-  background-size: contain, cover;
-  background-position: bottom, center;
+  background: linear-gradient(rgba(0,0,0,.35) 0,rgba(0,0,0,.35)),url('../img/banner-girl.png'),url('../img/flower-bkgd.jpg');
+  background-size: cover, 44%;
+  background-position: center, center;
   background-repeat: no-repeat, no-repeat;
-  background-position-y: 58px, 0;
+  background-position-y: 0, 10px;
   /* padding-top: 210px;
   padding-bottom: 210px; */
   padding: 210px 0;
@@ -112,6 +116,7 @@ flex: 1 0 100%;
   padding: 5rem 2rem;
   line-height: 1.7;
   font-size: 1.2rem;
+  
 
 }
 
@@ -127,7 +132,8 @@ flex: 1 0 100%;
 }
 
 .abut p {
-  color: #969696;
+  color: #2D2D2D;
+  
 }
 
 /* section products */
