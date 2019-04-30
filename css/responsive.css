@@ -1,27 +1,25 @@
-
-
-
 @media only screen and (min-width: 600px) {
 
     html,
-body {
-    font-size: 16px;
-}
+    body {
+        font-size: 16px;
+    }
+
     .site-header {
-        
+
         flex-wrap: nowrap;
         justify-content: space-around;
         padding-bottom: .5rem;
         /* min-height: 120px; */
-      }
-    
-      .logo {
-          order: 1;
-          text-align: left;
-          flex-basis: 25%;
-      }
-    
-    
+    }
+
+    .logo {
+        order: 1;
+        text-align: left;
+        flex-basis: 25%;
+    }
+
+
     .main-nav {
         order: 2;
         border: none;
@@ -33,14 +31,14 @@ body {
         border: none;
     }
 
-      .cart {
+    .cart {
         order: 3;
         flex-basis: 25%;
         text-align: right;
     }
 
-      .bg-flower {
-        background: linear-gradient(rgba(0,0,0,.35) 0,rgba(0,0,0,.35)),url('../img/banner-girl.png'),url('../img/flower-bkgd.jpg');
+    .bg-flower {
+        background: linear-gradient(rgba(0, 0, 0, .35) 0, rgba(0, 0, 0, .35)), url('../img/banner-girl.png'), url('../img/flower-bkgd.jpg');
         background-size: cover, contain;
         background-position: center, center;
         background-repeat: no-repeat, no-repeat;
@@ -49,14 +47,15 @@ body {
         padding-bottom: 210px; */
         padding: 210px 0;
         text-align: center;
-      }
+    }
 
     .about h2 {
         font-size: 3rem;
     }
+
     .about p {
         font-size: 1.rem;
-        
+
     }
 
     .carousel-cell {
@@ -72,7 +71,7 @@ body {
         text-align: left;
     }
 
-    .footer-right ul{
+    .footer-right ul {
         text-align: left;
         flex-direction: column;
     }
@@ -82,28 +81,13 @@ body {
         color: #fff;
         text-decoration: none;
     }
-    
-
-      
 }
 
 @media only screen and (min-width: 768px) {
     .about {
         margin: auto;
         width: 700px;
-      }
-      
-      
-      
-      
-     
-      
-     
-}
-
-
-@media only screen and (min-width: 992px) {
-    
+    }
 }
 
 
