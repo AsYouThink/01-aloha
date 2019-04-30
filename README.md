@@ -17,5 +17,5 @@ Project is created with:
 * JS
 	
 ## Personal Learnings
-During this project, I learnt new tecknologies like JS, I also improved my HTML and CSS skills.
+During this project I learnt new tecknologies like JS, I also improved my HTML and CSS skills.
 
