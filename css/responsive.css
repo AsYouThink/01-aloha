@@ -58,6 +58,60 @@
 
     }
 
+    /* section products */
+
+    .product-categories {
+        display: grid;
+        grid-template-columns: 2, 1fr;
+        grid-template-rows: 4, 1fr;
+        grid-gap: 6px;
+        max-width: 100%;
+      }
+
+      .mens {
+        grid-column-start: 1; 
+        grid-column-end: 3;
+        grid-row-start: 1; 
+        grid-row-end: 2;
+      }
+      
+      .trends {
+        grid-column-start: 3; 
+        grid-column-end: 4;
+        grid-row-start: 1; 
+        grid-row-end: 2;        
+      }
+      
+      .glasses {
+        grid-column-start: 4; 
+        grid-column-end: 5;
+        grid-row-start: 1; 
+        grid-row-end: 2;
+      }
+      
+      .sale {        
+        grid-column-start: 1; 
+        grid-column-end: 2;
+        grid-row-start: 2; 
+        grid-row-end: 3;
+      }
+      
+      .bags {
+        grid-column-start: 2; 
+        grid-column-end: 3;
+        grid-row-start: 2; 
+        grid-row-end: 3;
+      }
+      
+      .womens {
+        grid-column-start: 3; 
+        grid-column-end: 5;
+        grid-row-start: 2; 
+        grid-row-end: 3;
+      }
+      
+/* section slideshow */
+
     .carousel-cell {
         width: 50%;
     }
@@ -90,9 +144,142 @@
     }
 }
 
+@media only screen and (min-width: 991px) {
+    
+    }
+}
 
 @media only screen and (min-width: 1240px) {
+    
+
+    .site-header {
+
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        padding-bottom: .5rem;
+        /* min-height: 120px; */
+    }
+
+    .logo {
+        order: 1;
+        text-align: left;
+        flex-basis: 25%;
+    }
+
+
+    .main-nav {
+        order: 2;
+        border: none;
+        padding-top: 1rem;
+        flex-basis: 50%;
+    }
+
+    .nav-items {
+        border: none;
+    }
+
+    .cart {
+        order: 3;
+        flex-basis: 25%;
+        text-align: right;
+    }
+
+    .bg-flower {
+        background: linear-gradient(rgba(0, 0, 0, .35) 0, rgba(0, 0, 0, .35)), url('../img/banner-girl.png'), url('../img/flower-bkgd.jpg');
+        background-size: cover, contain;
+        background-position: center, center;
+        background-repeat: no-repeat, no-repeat;
+        background-position-y: 0, 40px;
+        /* padding-top: 210px;
+        padding-bottom: 210px; */
+        padding: 210px 0;
+        text-align: center;
+    }
+
+    .about h2 {
+        font-size: 3rem;
+    }
+
+    .about p {
+        font-size: 1.rem;
+
+    }
+
+    /* section products */
+
+    .product-categories {
+        display: grid;
+        grid-template-columns: 2, 1fr;
+        grid-template-rows: 4, 1fr;
+        grid-gap: 6px;
+        max-width: 100%;
+      }
+
+      .mens {
+        grid-column-start: 1; 
+        grid-column-end: 3;
+        grid-row-start: 1; 
+        grid-row-end: 2;
+      }
+      
+      .trends {
+        grid-column-start: 3; 
+        grid-column-end: 4;
+        grid-row-start: 1; 
+        grid-row-end: 2;        
+      }
+      
+      .glasses {
+        grid-column-start: 4; 
+        grid-column-end: 5;
+        grid-row-start: 1; 
+        grid-row-end: 2;
+      }
+      
+      .sale {        
+        grid-column-start: 1; 
+        grid-column-end: 2;
+        grid-row-start: 2; 
+        grid-row-end: 3;
+      }
+      
+      .bags {
+        grid-column-start: 2; 
+        grid-column-end: 3;
+        grid-row-start: 2; 
+        grid-row-end: 3;
+      }
+      
+      .womens {
+        grid-column-start: 3; 
+        grid-column-end: 5;
+        grid-row-start: 2; 
+        grid-row-end: 3;
+      }
+      
+/* section slideshow */
+
     .carousel-cell {
-        width: 25%;
+        width: 50%;
+    }
+
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer-left {
+        text-align: left;
+    }
+
+    .footer-right ul {
+        text-align: left;
+        flex-direction: column;
+    }
+
+    .footer-right ul li a {
+        display: inline;
+        color: #fff;
+        text-decoration: none;
     }
 }
