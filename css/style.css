@@ -6,7 +6,7 @@
 html,
 body {
   font-size: 14px;
-
+  color: #2d2d2d;
 }
 
 html {
@@ -83,7 +83,7 @@ flex: 1 0 100%;
 
 .bg-flower {
   background: linear-gradient(rgba(0,0,0,.35) 0,rgba(0,0,0,.35)),url('../img/banner-girl.png'),url('../img/flower-bkgd.jpg');
-  background-size: cover, 44%;
+  background-size: cover, contain;
   background-position: center, center;
   background-repeat: no-repeat, no-repeat;
   background-position-y: 0, 10px;
@@ -114,8 +114,12 @@ flex: 1 0 100%;
   padding: 5rem 2rem;
   line-height: 1.7;
   font-size: 1.2rem;
-  
+}
 
+.about p {
+  color: #2d2d2d;
+  font-family: 'Raleway';
+  font-weight: 200;
 }
 
 
@@ -339,13 +343,22 @@ flex: 1 0 100%;
 }
 /* section footer */
 .footer {
-  padding: 5rem;
+  padding: 4rem 1rem;
   background-color: #242424;
   color: #fff;
   line-height: 1.3rem; 
   text-align: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+}
+
+.copyright {
+  padding: 1rem 0;
+}
+
+.contact-info {
+  padding: 1rem 0;
 }
 
 
@@ -367,5 +380,9 @@ flex: 1 0 100%;
 .fab {
   padding: 10px;
   color: white;
+}
+
+.footer-right li a {
+  display: none;
 }
 
