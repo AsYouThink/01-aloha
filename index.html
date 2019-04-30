@@ -8,8 +8,8 @@
   <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="./fonts/fonts.css">
   <link rel="stylesheet" type="text/css" href="./css/flickity.css">
-  <link rel="stylesheet" type="text/css" href="css/responsive.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <title>Aloha</title>
 </head>
@@ -38,14 +38,14 @@
 
   <!-- section banner -->
 
-  <section class="bg-flower">
+  <section class="bg-flower" >
     <p class="text-new-collection">New Collection</p>
     <h1 class="text-spring-summer">Spring/Summer 2019</h1>
   </section>
 
   <!-- section about -->
 
-  <section class="about">
+  <section class="about" id="about">
     <div class="">
       <h2 class="italic">Hand-Crafted <span class="bold">Style</span></h2>
       <p>Aloha Apparel Co. sells only finest ready-to-travel clothing. Browse our current selection of products or
@@ -54,7 +54,7 @@
   </section>
 
   <!-- section products -->
-  <section class="all-products flex-container">
+  <section id="shop" class="all-products flex-container">
     <div class="product-categories">
       <div class="wide mens">
         <span>men`s</span>
@@ -78,63 +78,63 @@
   </section>
 
   <!-- section slideshow -->
-  <section class="slideshow">
+  <section id="featured" class="slideshow">
     <div class="most-loved">
       <h2 class="italic">Most-Loved <span class="bold">Products</span></h2>
     </div>
 
-    <div class="main-carousel" data-flickity='{ "cellAlign": "center", "autoPlay": true, "contain": true, "prevNextButtons": false, "wrapAround": true}'>
+    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "autoPlay": true, "contain": true, "prevNextButtons": false, "wrapAround": true}'>
 
-      <div class="main-carousel caruousel-cell">
+      <div class="carousel-cell">
         <img src="img/stretch-knit-dress.jpg" alt="">
         <p class="product-catagory">Dresses</p>
         <h3 class="product-name">Stretch Knit Dress</h3>
         <p class="product-price">$169.00</p>
       </div>
 
-      <div class="main-carousel">
+      <div class="carousel-cell">
         <img src="img/cotton-blue-shirt.jpg" alt="">
         <p class="product-catagory">Shirts</p>
         <h3 class="product-name">Cotton Blue Shirt</h3>
         <p class="product-price">$89.00</p>
       </div>
 
-      <div class="main-carousel">
+      <div class="carousel-cell">
         <img src="img/checked-stretch-dress.jpg" alt="">
         <p class="product-catagory">Dresses</p>
         <h3 class="product-name">Checked Stretch Dress</h3>
         <p class="product-price">$129.00</p>
       </div>
 
-      <div class="main-carousel">
+      <div class="carousel-cell">
         <img src="img/blue-hipster-backpack.jpg" alt="">
         <p class="product-catagory">Bags</p>
         <h3 class="product-name">Blue Hipster Backpack</h3>
         <p class="product-price">$69.00</p>
       </div>
 
-      <div class="main-carousel">
+      <div class="carousel-cell">
         <img src="img/demin-overall-shorts.jpg" alt="">
         <p class="product-catagory">Denim</p>
         <h3 class="product-name">Denim Overall Shorts</h3>
         <p class="product-price">$89.00</p>
       </div>
 
-      <div class="main-carousel">
+      <div class="carousel-cell">
         <img src="img/pink-dotted-dress.jpg" alt="">
         <p class="product-catagory">Dresses</p>
         <h3 class="product-name">Pink Dotted Dress</h3>
         <p class="product-price">$99.00</p>
       </div>
 
-      <div class="main-carousel">
+      <div class="carousel-cell">
         <img src="img/blue-silk-dress.jpg" alt="">
         <p class="product-catagory">Dresses</p>
         <h3 class="product-name">Blue Silk Dress</h3>
         <p class="product-price">$119.00</p>
       </div>
 
-      <div class="main-carousel">
+      <div class="carousel-cell">
         <img src="img/cotton-yellow-tshirt.jpg" alt="">
         <p class="product-catagory">Shirts</p>
         <h3 class="product-name">Cotton Yellow Tshirts</h3>
@@ -146,7 +146,7 @@
 
 
   <!-- section newsletter -->
-  <section class="newsletter" id="newsletter">
+  <section id="updates" class="newsletter" id="newsletter">
     <div class="singn-up container">
       <h2 class="italic">Sign-up for <span class="bold">Updates</span></h2>
       <p>Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
@@ -159,7 +159,7 @@
 
   <!-- section footer -->
   <footer class="footer">
-    <div>
+    <div class="container">
       <div class="copyright">
         <p>© 2019 Aloha Apparel Co.</p>
         <p>Powered by HTML and CSS</p><br>
